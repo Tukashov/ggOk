@@ -1,4 +1,4 @@
-# optima24
+# ggOK
 
 ## Project setup
 ```
