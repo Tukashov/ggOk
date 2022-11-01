@@ -11,7 +11,7 @@
             <form method="POST" @submit.prevent="submit">
               <div class="mb-3">
                 <label class="pwd" for="email">Укажите почту при регистрации аккаунта.</label>
-                <input required v-model="loginUser" type="email" class="form-control inp" pattern=".+@gmail\.com" placeholder="Введите Email" id="name" aria-describedby="name">
+                <input required v-model="loginUser" type="email" class="form-control inp" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Введите Email" id="name" aria-describedby="name">
               </div>
               <div class="mb-3">
                 <label class="pwd" for="password">Пароль</label>
