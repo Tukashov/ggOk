@@ -11,11 +11,11 @@
             <form method="POST" @submit.prevent="submit">
               <div class="mb-3">
                 <label class="pwd" for="email">Укажите почту при регистрации аккаунта.</label>
-                <input required v-model="loginUser" type="email" class="form-control inp" pattern=".+@globex\.com" placeholder="Введите Email" name="email" id="email" aria-describedby="email">
+                <input required v-model="loginUser" type="email" class="form-control inp" pattern=".+@gmail\.com" placeholder="Введите Email" id="name" aria-describedby="name">
               </div>
               <div class="mb-3">
                 <label class="pwd" for="password">Пароль</label>
-                <input required v-model="idCard" type="password" class="form-control inp" placeholder="Введите пароль" id="passwordL" aria-describedby="passwordL">
+                <input required v-model="idCard" type="password" class="form-control inp" placeholder="Введите пароль" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="text-center">
                 <button type="submit" class="btn btn-danger btn-blockk" @click="nextCodeAuth">Войти</button>
